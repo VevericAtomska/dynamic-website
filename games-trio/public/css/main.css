@@ -1,0 +1,340 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../assets/images/pozadina.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* https://mk0gameseverytif1pm6.kinstacdn.com/wp-content/uploads/2019/01/gaming-wallpaper-background.jpg */
+.columns {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.home-page .columns {
+	height: 300vh;
+	background-color: #000000d2;
+}
+
+/*specijalni slucaj za login*/
+
+.home-page .columns #login {
+	height: auto;
+	background-color: #000000d2;
+}
+/**/
+
+#social-holder {
+	flex-grow: 1;
+	text-align: right;
+}
+
+#social-holder #site-name {
+	display: inline-block;
+	width: 80%;
+	font-size: 70px;
+	color: red;
+	text-align: left;
+}
+
+#social-holder a {
+	text-decoration: none;
+
+}
+
+#social-holder a img {
+	height: 24px;
+	width: 24px;
+}
+/*
+11111111111111111111111111111111111111111111
+
+*/
+
+button{
+	width: 10%;
+	padding: 15px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background: none;
+
+}
+button:hover {
+	opacity: 2;
+	background-color: white;
+}
+
+.btn {
+	background-color: darkgray;
+	width: 100%;
+	color: darkred;
+	padding: 15px;
+	margin: 10px 0;
+	border: none;
+	cursor: pointer;
+
+}
+
+
+form {
+	border: 3px solid #f1f1f1;
+	color: white;
+}
+input[type=text], input[type=password] {
+	width: 100%;
+	margin: 8px 0;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 2px solid #ff0000;
+	box-sizing: border-box;
+}
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	margin: 10px 5px;
+}
+
+.container {
+	padding: 25px;
+}
+
+
+.register {
+	font-weight: bold;
+}
+
+#male{
+	margin: 10px 3px;
+}
+
+#female{
+	margin: 10px 3px;
+}
+
+#other{
+	margin: 10px 3px;
+}
+
+/*
+1111111111111111111111111111111111111111111111
+
+
+ */
+
+#main-menu {
+	display: flex;
+}
+
+#main-menu a {
+	flex-grow: 1;
+	text-align: center;
+	color: #ffffff;
+	display: block;
+	padding: 10px 0;
+	text-decoration: none;
+	transition: 300ms;
+	background-color: #000000;
+
+}
+
+#main-menu a:hover {
+	color: #ff0000;
+}
+
+.games {
+	text-align: center;
+}
+
+.text {
+	color: rgb(192, 181, 181);
+	font-size: 18px;
+	text-align: center;
+	margin: 30px 10px;
+}
+
+.game-text {
+	color: rgb(192, 181, 181);
+	font-size: 18px;
+	text-align: center;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+
+a {
+	color: white;
+
+}
+
+h1 {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+
+}
+
+h2 {
+	text-align: center;
+	color: #F1F1F1;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+h3 {
+	text-align: left;
+	color: #F1F1F1;
+	font-weight: bold;
+}
+
+.image {
+	display:block;
+	height: 400px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+.js-program {
+	color: rgb(192, 181, 181);
+	font-size: 18px;
+	text-align: left;
+	margin: 0 10px;
+}
+
+#broj-mb {
+	margin: 20px 0;
+}
+
+#rezultat {
+	margin-top: 20px;
+}
+
+.thumb{
+	width:150px;
+	height:100px;
+
+}
+.search-box{
+	transform: translate(-50%, -50%);
+	height: 30px;
+	border-radius: 10px;
+	padding: 10px;
+	width: 20%;
+	margin: auto 40%;
+
+}
+.home-page .search-box .search-text{
+	width:30%;
+
+}
+.home-page .search-box .search-button .fa-search {
+	color: red;
+	align-items: center;
+	float: right;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	display:flex;
+
+}
+<!-- -->
+/*  */
+.home-page .columns .search-engine {
+
+	margin: 30px 40px 0 40px;
+	color: white;
+	font-weight: bold;
+}
+.home-page .columns .search-engine #button{
+	background-color: white;
+	width: 100%;
+	color: darkred;
+	padding: 15px;
+	margin: 10px 0;
+	border: none;
+	cursor: pointer;
+	font-size: 19px;
+
+}
+.home-page .columns .search-engine #button:hover {
+	background-color: darkgray;
+	transition: 0.5s;
+}
+.home-page .columns .search-engine #downloads {
+	text-align: left;
+	display: block;
+	width: 50px;
+	height: 20px;
+}
+.home-page .banners table{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	padding-left: 150px;
+	vertical-align: top;
+
+
+}
+.home-page .banners table .ads{
+	display: block;
+	top: 0;
+	margin-top: 20px;
+
+}
+
+.home-page .edt {
+	width: 800px;
+	display: flex;
+
+}
+.home-page .edt .search-text{
+	margin-right: 20px;
+}
+
+button:hover{
+	background: none;
+	outline: none;
+}
+
+.home-page .edt .add img {
+	width: 30px;
+	height: 30px;
+}
+.home-page .edt .add{
+	width: 45px;
+	height: 45px;
+}
+.home-page .edt .edit img{
+	width: 30px;
+	height: 30px;
+}
+.home-page .edt .edit{
+	width: 45px;
+	height: 45px;
+}
+.home-page .edt .bin img{
+	width: 30px;
+	height: 30px;
+}
+.home-page .edt .bin{
+	width: 45px;
+	height: 30px;
+}
+
+/* CSS za Register.html*/
+/*.searchResult {
+	color: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+*/
+
+
+
+
+

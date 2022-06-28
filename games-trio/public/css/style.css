@@ -1,0 +1,303 @@
+/*Ovo je osnova stranice.
+Koristim osnovni css za sve stranice koje pravim.
+Posle njega pise koji css je za sta.*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../assets/images/pozadina.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.columns {
+	width: 800px;
+	margin: 0px auto;
+}
+
+#holder {
+	margin-bottom: 30px;
+}
+.home-page .columns {
+	height: 800vh;
+	background-color: #000000d2;
+}
+
+#social-holder {
+	flex-grow: 1;
+	text-align: right;
+}
+
+#social-holder #site-name{
+	display: inline-block;
+	width: 80%;
+	font-size: 70px;
+	color: red;
+	text-align: left;
+}
+
+#social-holder a {
+	text-decoration: none;
+	text-align: right;
+}
+
+#social-holder a img {
+	height: 24px;
+	width: 24px;
+}
+
+#main-menu {
+	display: flex;
+}
+
+#main-menu a {
+	flex-grow: 1;
+	text-align: center;
+	color: #ffffff;
+	display: block;
+	padding: 10px 0px;
+	text-decoration: none;
+	transition: 300ms;
+	background-color: #000000;
+	
+}
+
+#main-menu a:hover{
+	color: #ff0000;
+}
+
+#naslov {
+	color: #ffffff;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#post {
+	font-size: 13px;
+	color:grey;
+	margin-top: 0x;
+}
+
+#telo {
+	color:#dddddd;
+	text-align: left;
+	margin:20px 30px;
+	line-height: 150%;
+}
+
+/*
+	Gore se nalazi osnova stranice,
+	dole se nalaze klase za Uputstvo.html
+*/
+#program-download {
+	text-align: center;
+	margin:30px 0px;
+}
+
+#program-download a {
+	text-decoration: none;
+}
+.download-link {
+	margin: 20px auto;
+	background-color: #3a3939;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	color:#dddddd;
+}
+
+.download-link:hover {
+	color:#ff0000;
+	background-color: gray;
+}
+
+#program-download h2 {
+	margin-top: 45px;
+	margin-bottom: 30px;
+}
+
+#text-box {
+	margin: 30px auto;
+	background-color: #3a3939;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	color:#dddddd;
+	text-align: center;
+}
+
+#telo img {
+	display:table;
+	margin:20px 0px;
+	width:100%;
+}
+
+#telo a{
+	text-decoration: none;
+}
+
+.download-link {
+	padding-left: 20px;
+}
+
+
+/*Gore je dodatni css za uputstvo.html.
+Dalje se nalazi css za dodatne scenarije
+*/
+
+.home-page-s1 .columns {
+	height: 820vh;
+	background-color: #000000d2;
+}
+
+.home-page-s2 .columns {
+	height: 120vh;
+	background-color: #000000d2;
+}
+
+.home-page-s3 .columns {
+	height: 120vh;
+	background-color: #000000d2;
+}
+
+.enjoy{
+	font-size: 20px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+/*Sada sledi dodatni deo za zanrove*/
+
+#telo .genre{
+	text-decoration: none;
+	font-size: 20px;
+	color:grey;
+}
+
+/* Dalje radimo css za AKCIJA.html */
+
+#naslov h1{
+	color: white;
+}
+
+#game-name {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color:rgb(168, 167, 167);
+	margin-top: 60px;
+	font-size: 25px;
+}
+
+
+#telo .game-link{
+	font-size: 25px;
+	color:grey;
+	text-align: center;
+	text-decoration: underline;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#telo .game-link:hover{
+	color:red;
+}
+
+#pucanje {
+	height:300vh;
+}
+
+/* F.A.Q */
+
+#contact{
+	text-align: center;
+}
+
+#see {
+	margin-bottom: 50px;
+	font-size: 30px;
+}
+
+.q {
+	margin:20px 0px;
+	font-size: 18px;
+}
+
+.a {
+	font-size: 18px;
+}
+  #error_page{
+	  position: relative;
+	  background-color: #C0C0C0;
+					  }
+.error404{
+	width: 100%;
+	line-height: 1.4;
+	text-align: center;
+	left: 50%;
+	top: 50%;
+}
+#error_page h1{
+	font-size: 252px;
+	font-weight: 900;
+	margin: 0px;
+	color: #262626;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+#error_page button{
+	padding: 15px;
+	background: #FF4D00;
+	hover: black;
+}
+#error_page a{
+	text-decoration: none;
+	color: #333;
+}
+#error_page{
+	margin: 50px auto 50px auto;
+	width: 1300px;
+}
+#error_page h1{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Dancing Script', cursive;
+}
+
+#ent {
+	color: red;
+}
+
+.header .check {
+	color:red;
+	border:2px red solid;
+	background: black;
+	align-self: auto;
+	display: inline-block;
+	margin-left: 830px;
+	margin-top: 10px;
+}
+
+.header .check {
+	color:red;
+	border:2px red solid;
+	background: black;
+	align-self: auto;
+	display: inline-block;
+	margin-left: 830px;
+	margin-top: 10px;
+}
+
+.header .yes {
+	color:red;
+	border:2px red solid;
+	background: black;
+	align-self: auto;
+	display: inline-block;
+	margin-left: 830px;
+	margin-top: 10px;
+	position: absolute;
+	top: 165px;
+
+
+}
