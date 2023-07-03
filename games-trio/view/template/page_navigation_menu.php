@@ -41,6 +41,10 @@
                     <a href="index.php?page=installation" target="_self">Installation instructions</a>
                     <a href="index.php?page=faq">F.A.Q</a>
                     <a href="index.php?page=contact">Contact information</a>
+                    <?php if (isset($_SESSION ["admin"])): ?>
+                    <a href="index.php?page=analysis" target="_self" >Analysis</a>
+                    <?php endif ?>
+
                 </nav>
             </div>
         </div>

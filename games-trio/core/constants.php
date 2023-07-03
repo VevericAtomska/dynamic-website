@@ -9,7 +9,7 @@ define('URL_SCRIPT', $_SERVER['REQUEST_URI']);
 define('URL_E404', URL_SCRIPT_NAME . '?page=e404');
 
 define('DIR_LOGIN', DIR_MODULES . 'login/');
-
+define('DIR_ANALYSIS', DIR_VIEW . 'analysis/');
 define('DIR_CONTACT', DIR_VIEW . 'contact/');
 define('DIR_FAQ', DIR_VIEW . 'faq/');
 define('DIR_GAMES', DIR_VIEW . 'games/');

@@ -115,9 +115,6 @@ input[type=text], input[type=password] {
 	margin: 10px 3px;
 }
 
-#other{
-	margin: 10px 3px;
-}
 
 /*
 1111111111111111111111111111111111111111111111
@@ -324,6 +321,11 @@ button:hover{
 	height: 30px;
 }
 
+.chart-container {
+	width: 640px;
+	height: auto;
+}
+
 /* CSS za Register.html*/
 /*.searchResult {
 	color: white;
@@ -334,7 +336,35 @@ button:hover{
 }
 */
 
+#myChart {
+	width: 900px;
+	height: 500px;
+	opacity: 76%;
+	padding-top: 40px;
+	margin: 30px 25px;
+	background-color: ghostwhite;
+}
 
+#start_date {
+	align-content: center;
+	display: inline-flex;
+	align-items: center;
+	margin-left: 44%
+}
 
+#end_date{
+	align-content: center;
+	display: inline-flex;
+	align-items: center;
+}
+
+#myChart2 {
+	width: 900px;
+	height: 500px;
+	opacity: 76%;
+	padding-top: 40px;
+	margin: 30px 25px;
+	background-color: ghostwhite;
+}
 
 

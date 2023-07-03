@@ -5,18 +5,20 @@ include DIR_TEMPLATE . "page_registration.php";
 include DIR_MODULES . "include_check_validation.php";
 
 
-if ( isset($_POST['username']) || isset($_POST['password']) ||  isset($_POST['email'])) {
+if ( isset($_POST['username']) || isset($_POST['password']) ||  isset($_POST['email'])  || isset($_POST['gender']) || isset($_POST['age'])) {
     $name = $_POST['username'];
     $pass = $_POST['password'];
     $email = $_POST['email'];
+    $gender = $_POST['gender'];
+    $age = $_POST['age'];
     include DIR_MODULES . "include_check_register.php";
 
-    $s = " SELECT * from register WHERE username = '" . $name . "' AND email = '" . $email . "' LIMIT 1";
+    $s = " SELECT * from register WHERE username = '" . $name . "' AND email = '" . $email . "' AND gender = '". $gender ."' LIMIT 1";
 
     $result = mysqli_query($connect, $s);
 
 
-    $reg = "INSERT INTO register (username, password, email) VALUES ('$name', '$pass', '$email')";
+    $reg = "INSERT INTO register (username, password, email, gender, age) VALUES ('$name', '$pass', '$email', '$gender', '$age')";
     mysqli_query($connect, $reg);
 
 }

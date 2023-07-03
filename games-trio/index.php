@@ -1,7 +1,5 @@
 <?php
 
-
-
 define('DIR_ROOT', './');
 define('DIR_CORE', DIR_ROOT.'core/');
 define('DIR_MODULES', DIR_ROOT . 'modules/');
@@ -38,6 +36,6 @@ else{
     header( 'Location:' .  URL_E404);
 }
 
-
+mysqli_close($connect);
 exit;
 ?>

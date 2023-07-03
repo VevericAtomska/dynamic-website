@@ -289,8 +289,8 @@ Dalje se nalazi css za dodatne scenarije
 }
 
 .header .yes {
-	color:red;
-	border:2px red solid;
+	color: red;
+	border: 2px red solid;
 	background: black;
 	align-self: auto;
 	display: inline-block;
